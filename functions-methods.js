@@ -34,3 +34,7 @@
 // checkEmailValidity("n.eekenanovi.nl") geeft false - want geen @
 // checkEmailValidity("n.eeken@novinl.") geeft false - want de punt mag niet als laatst
 // checkEmailValidity("tessmellink@novi,nl") geeft false - want er staat een komma in
+
+const datum = new Date("Apr 28, 1978 23:15:45");
+console.log(datum.getMinutes());
+
