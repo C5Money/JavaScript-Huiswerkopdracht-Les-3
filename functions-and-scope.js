@@ -125,32 +125,3 @@ for (let i = 0; i < grades.length; i++){
         console.log(grades[i]);
     }
 }
-
-
-
-
-/* 3b: Omschrijven tot een herbruikbare functie */
-// Schrijf een functie genaamd highestGrade, die een array van cijfers verwacht (zoals grades) en het hoogste cijfer teruggeeft. Gebruik hiervoor jouw antwoord van 3a.
-// Zorg ervoor dat jouw functie ook werkt als we een andere array willen checken, zoals bijvoorbeeld: [6, 4, 5] of [8, 9, 4, 6, 10].
-// Log het antwoord in de terminal.
-
-// ---- Verwachte uitkomsten:
-// highestGrade(grades) geeft 9
-// highestGrade([6, 4, 5]) geeft 6
-// highestGrade([8, 9, 4, 6, 10]) geeft 10
-
-function highestGrade(Array){
-    for (let i = 0; i < Array.length; i++){
-        if (10 - Array[i] <= 1 ){
-            return Array[i];
-        }
-    }
-}
-
-console.log(highestGrade(grades));
-
-// averageGrade([6, 4, 5]) geeft xxxx
-console.log(highestGrade(grades2));
-
-// averageGrade([8, 9, 4, 6, 10]) geeft xxxx
-console.log(highestGrade(grades3));
